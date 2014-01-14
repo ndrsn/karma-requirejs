@@ -19,10 +19,10 @@ module.exports = (config) ->
 		,
 		  pattern: "test/**/*Spec.js"
 		  included: false
-		, "test/test-main.js"]
+		, "test/test-main.coffee"]
 		
 		# list of files to exclude
-		exclude: ["src/main.js"]
+		exclude: ["src/main.coffee"]
 		
 		# test results reporter to use
 		# possible values: 'dots', 'progress', 'junit', 'growl', 'coverage'
