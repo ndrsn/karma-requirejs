@@ -14,7 +14,7 @@ module.exports = (config) ->
 		  pattern: "lib/**/*.js"
 		  included: false
 		,
-		  pattern: "src/**/*.js"
+		  pattern: "src/**/*.coffee"
 		  included: false
 		,
 		  pattern: "test/**/*Spec.js"
